@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ProjectManagementApiApplication<project-management-api>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.portafolio.projectmanager.project_management_api.ProjectManagementApiApplication",
+            "projectName": "project-management-api",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
