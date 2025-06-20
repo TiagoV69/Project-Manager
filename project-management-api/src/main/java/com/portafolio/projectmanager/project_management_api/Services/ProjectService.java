@@ -3,7 +3,6 @@ package com.portafolio.projectmanager.project_management_api.Services;
 import java.util.List;
 import java.util.Optional;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.portafolio.projectmanager.project_management_api.models.Project;
@@ -17,7 +16,6 @@ public class ProjectService {
     // Inyección de dependencias por constructor.
     // Spring ve que este constructor necesita un ProjectRepository y nos lo "inyecta" automáticamente.
     // Esta es la forma recomendada de inyección de dependencias según lo entendido.
-    @Autowired
     public ProjectService(ProjectRepository projectRepository) {
         this.projectRepository = projectRepository;
     }
